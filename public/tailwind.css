@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+.btn-danger {
+    @apply bg-red-500 text-white font-medium mt-3 px-3 py-2 rounded shadow ml-7;
+}
+
+.btn-danger:hover {
+    @apply bg-red-600;
+}
+
+.btn-danger:focus {
+    @apply outline-none;
+}
+
+@tailwind utilities;
